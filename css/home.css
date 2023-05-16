@@ -1,0 +1,105 @@
+body{
+	background: #FF4D4D;
+
+}
+
+
+main{
+	/* background: url(../img/banner.jpg); */
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	/* background: #FFECCE; */
+	width: 70%;
+	margin: 0 auto;
+}
+.boas-vindas{
+	text-align: center;
+	background: #FF4D4D;
+	margin-top: 40px;
+}
+.boas-vindas__title{
+	font-size: 3.5rem;
+}
+
+.lanchinho{
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+}
+
+.historia{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background: #FFECCE;
+    padding: 10px;
+}
+
+.historia-box{
+	/* border: 5px solid #000; */
+	/* border-radius: 20px; */
+	padding: 10px;
+    text-align: center;
+}
+
+
+
+.text{
+    font-size: 1.5rem;
+    text-align: justify;
+	line-height: 1.4em;
+    padding: 1rem;
+}
+.principal p{
+	font-size: 23px;
+	padding: 10px;
+
+} 
+
+.titulo-principal{
+	text-align: center;
+	font-size: 50px;
+}
+#missao {
+	font-size: 25px
+}
+em strong {
+	color: #FF0000;
+}
+
+
+.beneficios {
+	background: #FFECCE;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin: 0 auto;
+    padding: 10px;
+}
+
+.beneficios ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+	/* vertical-align: top; */
+	/* width: 100%; */
+}
+
+.titulo-beneficios{
+	text-align: center;
+	font-size: 50px;
+	padding: 10px;
+}
+
+.itens {
+	display: flex;
+	font-style: italic;
+	text-align: center;
+	
+}
+.img-beneficios{
+	width: 100%;
+	margin: 30px;
+	border-radius: 10px;
+}

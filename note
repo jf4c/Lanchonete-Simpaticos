@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Alura</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+
+<body>
+<header>
+    <nav class="header">
+        <a href="index.html"><img class="header__logo" src="../img/lancheBurn.jpg"></a>
+        <h1 class="header__title">Os Simpatitos</h1>
+        <ul class="header__nav-links">
+            <li><a href="produtos.html">Cardapio</a></li>
+            <li><a href="produtos.html">Endereço</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="contato.html">pedidos</a></li>
+            <li><a href="contato.html">Pagamento</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="boas-vindas">
+        <h2 class="boas-vindas__title">Bem Vindo a Lanchonete Dos Simpaticos</h2>
+        <img class="boas-vindas__lanchinho" src="../img/happyLanch.jpg" alt="lanche fofo">
+    </section>
+
+    <section class="historia">
+        <div class="historia__box">
+            <h2 class="historia__titulo-principal">Sobre a lanchonete Simpaticos:</h2>
+            <p class="historia__text">
+                Havia uma lanchonete na pequena cidade de Araras que, apesar do pouco movimento, oferecia sanduíches e sobremesas deliciosas e diferenciadas. Com o tempo, os proprietários, jovens e simpático empreendedores, começaram a investir em ideias criativas e inovadoras, como sanduíches temáticos e promoções especiais.
+            </p>
+
+            <p id="missao" class="historia__missao">
+                <em>Nossa missão é: <strong>"Proporcionar uma experiencia gastronomica inigualavel"</strong>.</em>
+            </p>
+
+            <p class="historia__text">
+                Hoje, a lanchonete é reconhecida como um dos maiores sucessos da região e é uma referência em termos de criatividade, qualidade, atendimento ao cliente e simpatia. Os proprietários estam sempre em busca de novas ideias e investimentos para continuar a surpreender e encantar os clientes.
+            </p>
+        </div>
+    </section>
+
+    <section class="beneficios">
+        <div class="beneficios__container">
+            <h3 class="beneficios__titulo">Benefícios</h3>
+            <ul class="beneficios__lista">
+                <li class="beneficios__item">Simpatia garantida</li>
+                <li class="beneficios__item">preço acessivel</li>
+                <li class="beneficios__item">Localização</li>
+                <li class="beneficios__item">Profissionais Qualificados</li>
+            </ul>
+        </main>
+        <footer>
+            <p class="footer__copyright">&copy; Copyright Barbearia Alura - 2021</p>
+        </footer>
+        </body>
+        </html>
