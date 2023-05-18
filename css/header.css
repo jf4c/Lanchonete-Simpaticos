@@ -1,53 +1,40 @@
-/*------------------------HEADER-----------------------*/
-header{
-	/* background: url(../img/banner2.jpg); */
-	/* background-position: center;
-	background-repeat: no-repeat; 
-	background-size: cover;  */
-	/* height: 120px; ; */
-	/* padding: 20px; */
 
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-	/* border: 2px solid #000; */
-	/* border-radius: 100px; */
-	/* width: 75%; */
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: #FFECCE;
 	padding: 5px;
 }
-.nav-links{
-    display: flex;
+
+.header__nav-links {
+	display: flex;
 }
 
-nav li{
+.header__nav li {
 	display: flex;
 	margin: 0 10px;
 }
-nav a{
+
+.header__nav a {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 1.4rem;
 	color: #000;
+	width: 10%;
 }
-nav a:hover{
+
+.header__nav a:hover {
 	color: #FF4D4D;
 }
 
-
-.logo{
-	display: inline;
-	width: 100px;
-    border-radius: 50px;
-	
+.header__logo {
+	width:80%;
+	border-radius: 50px;
 }
 
-.title{
+.header__title {
 	font-size: 3.8rem;
 	color: #FF4D4D;
 }
-
-/*------------------------HEADER-----------------------*/

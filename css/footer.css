@@ -1,0 +1,12 @@
+.footer{
+	background-color: #FFECCE;
+    text-align: center;
+    font-size:  1.5rem;
+    margin-top: 40px;
+    padding: .2em;
+}
+
+.footer__img{
+	width:7%;
+}
+

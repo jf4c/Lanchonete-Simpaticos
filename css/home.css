@@ -2,8 +2,6 @@ body{
 	background: #FF4D4D;
 
 }
-
-
 main{
 	/* background: url(../img/banner.jpg); */
 	background-position: center;
@@ -22,7 +20,7 @@ main{
 	font-size: 3.5rem;
 }
 
-.lanchinho{
+.boas-vindas__image{
     width: 20%;
     height: 20%;
     border-radius: 100%;
@@ -35,31 +33,26 @@ main{
     padding: 10px;
 }
 
-.historia-box{
+.historia__box{
 	/* border: 5px solid #000; */
 	/* border-radius: 20px; */
 	padding: 10px;
     text-align: center;
 }
 
+.historia__titulo-principal{
+	text-align: center;
+	font-size: 50px;
+}
 
-
-.text{
+.historia__text{
     font-size: 1.5rem;
     text-align: justify;
 	line-height: 1.4em;
     padding: 1rem;
 }
-.principal p{
-	font-size: 23px;
-	padding: 10px;
 
-} 
 
-.titulo-principal{
-	text-align: center;
-	font-size: 50px;
-}
 #missao {
 	font-size: 25px
 }
@@ -75,31 +68,34 @@ em strong {
 	margin: 0 auto;
     padding: 10px;
 }
+.beneficios__container{
+	text-align: center;
+}
 
-.beneficios ul {
+.beneficios__lista {
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 30px;
-	/* vertical-align: top; */
-	/* width: 100%; */
+	margin-bottom: 20px;
 }
 
-.titulo-beneficios{
+.beneficios__titulo{
 	text-align: center;
 	font-size: 50px;
 	padding: 10px;
 }
 
-.itens {
+.beneficios__item {
 	display: flex;
 	font-style: italic;
 	text-align: center;
-	
+	font-size: 1.5rem;
+
 }
-.img-beneficios{
-	width: 100%;
-	margin: 30px;
+.beneficios__imagem{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
 	border-radius: 10px;
 }
