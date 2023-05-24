@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Simpatitos lanchonete - home</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/home.css">
@@ -14,21 +15,29 @@
     <body>
         <header class="header">
             <nav class="header__nav">
-                <a href="index.html"><img class="header__logo" src="../img/lancheBurn.jpg"></a>
-                <h1 class="header__title">Os Simpatitos</h1>
+                <img class="header__logo" src="../img/lancheBurn.jpg">
+                <h1 class="header__title">Os Simpáticos</h1>
                 <ul class="header__nav-links">
-                    <li><a href="cardapio.html">Cardapio</a></li>
-                    <li><a href="pedidos.html">Pedidos</a></li>
-                    <li><a href="pagamentos.html">Pagamento</a></li>
-                    <li><a href="endereco.html">Endereço</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a class="header__link" href="index.html">Home</a></li>
+                    <li><a class="header__link" href="endereco.html">Endereço</a></li>
+                    
+                    <li>
+                        <a class="header__link" href="cardapio.html">
+                            <span class="material-symbols-outlined icon">restaurant_menu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__link" href="pedidos.html">
+                            <span class="material-symbols-outlined icon">shopping_cart</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
         <main>
             <section class="boas-vindas">
-                <h2 class="boas-vindas__title">Bem Vindo a Lanchonete Dos Simpaticos</h2>
+                <h2 class="boas-vindas__title">Bem Vindo a Lanchonete Dos Simpáticos</h2>
                 <img class="boas-vindas__image" src="../img/happyLanch.jpg" alt="lanche fofo">
             </section>
 
@@ -70,5 +79,6 @@
             </p>
             <img class="footer__img" src="../img/lancheBurn.jpg">
         </footer>
+        <script src="../js/header.js"></script>
     </body>
 </html>

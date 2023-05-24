@@ -13,11 +13,17 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     margin: 1rem;
     border-radius: 20px;
     background: #FFECCE;
+    box-shadow: 0 0 10px black;
+    transition: 0.1s;
+}
+
+.produtos__itens:hover{
+    box-shadow: 0 0 5px black;
 }
 
 .produtos__title{

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simpatitos lanchonete - home</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/pagamento.css">
+        <link rel="stylesheet" href="../css/footer.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="header__nav">
+                <img class="header__logo" src="../img/lancheBurn.jpg">
+                <h1 class="header__title">Os Simpáticos</h1>
+                <ul class="header__nav-links">
+                    <li><a class="header__link" href="index.html">Home</a></li>
+                    <li><a class="header__link" href="endereco.html">Endereço</a></li>
+                    
+                    <li>
+                        <a class="header__link" href="cardapio.html">
+                            <span class="material-symbols-outlined icon">restaurant_menu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__link" href="pedidos.html">
+                            <span class="material-symbols-outlined icon">shopping_cart</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="pagamento">
+                <div class="box-pagamento">
+                    <div class="total-a-pagar">
+                        <h2 class="total-a-pagar__title">Valor total</h2>
+                        <span class=" total-a-pagar__valor">R$</span>
+    
+                        <!-- <input type="radio" name="" id=""> -->
+                    </div>
+                    <img class="pagamento__image" src="../img/happyLanch.jpg" alt="lanche fofo">
+                </div>
+
+
+                <div class="formas-de-pagamento">
+                    <h2 class="formas-de-pagamento__title"> Escolha a forma de pagamento</h2>
+    
+                    <form class="pagamento__Card" action="">
+                        <fieldset class="pagamento__fieldset">
+    
+                            <label for="state"  class="button">
+                                <legend class="pagamento__legend" >Cartão de Credito</legend>
+                                <span class="material-symbols-outlined icon">expand_more</span>
+                            </label>
+                            <input type="checkbox" id="state" hidden >
+    
+                            <div class="input__container" >
+                                <input type="text" class="pagamento__input" placeholder="Número do cartão">
+                                <input type="text" class="pagamento__input" placeholder="Nome no Cartão">
+                                <input type="text" class="pagamento__input" placeholder="MM/AA">
+                                <input type="text" class="pagamento__input" placeholder="CVV">
+                                <input class="pagamento__button" type="button" value="Efetuar pagamento">
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <form class="pagamento__Card" action="">
+                        <fieldset class="pagamento__fieldset">
+    
+                            <label for="state-pix"  class="button">
+                                <legend class="pagamento__legend" >PIX</legend>
+                                <span class="material-symbols-outlined icon">expand_more</span>
+                            </label>
+                            <input type="checkbox" id="state-pix" hidden >
+    
+                            <div class="input__container" >
+                                <img class="input__img" src="../img/qrcode.png" alt="">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+                
+                
+            </section>
+            
+        </main>
+        
+        <footer class="footer">
+            <p class="footer__copyright">
+                &copy; Lanchonete dos simpático - 2023
+            </p>
+            <img class="footer__img" src="../img/lancheBurn.jpg">
+        </footer>
+        <script src="../js/header.js"></script>
+        <script src="../js/pagamento.js"></script>
+    </body>
+</html>
