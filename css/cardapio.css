@@ -2,6 +2,12 @@ body{
     background: #FF4D4D;
 }
 
+.title{
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem;
+}
+
 .produtos{
     display: flex;
     flex-wrap: wrap;
