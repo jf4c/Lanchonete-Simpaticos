@@ -10,11 +10,15 @@
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/pagamento.css">
         <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/mobile.css">
     </head>
 
     <body>
         <header class="header">
             <nav class="header__nav">
+                <span class="material-symbols-outlined menu">
+                    menu
+                </span>
                 <img class="header__logo" src="../img/lancheBurn.jpg">
                 <h1 class="header__title">Os Simpáticos</h1>
                 <ul class="header__nav-links">
@@ -32,6 +36,7 @@
                         </a>
                     </li>
                 </ul>
+                
             </nav>
         </header>
 
@@ -51,40 +56,42 @@
 
                 <div class="formas-de-pagamento">
                     <h2 class="formas-de-pagamento__title"> Escolha a forma de pagamento</h2>
+                    <div class="formas-de-pagamento--Box">
+                        <form class="pagamento__Card" action="">
+                            <fieldset class="pagamento__fieldset">
+        
+                                <label for="state"  class="button">
+                                    <legend class="pagamento__legend" >Cartão de Credito</legend>
+                                    <span class="material-symbols-outlined icon">expand_more</span>
+                                </label>
+                                <input type="checkbox" id="state" hidden >
+        
+                                <div class="input__container" >
+                                    <input type="text" class="pagamento__input" placeholder="Número do cartão">
+                                    <input type="text" class="pagamento__input" placeholder="Nome no Cartão">
+                                    <input type="text" class="pagamento__input" placeholder="MM/AA">
+                                    <input type="text" class="pagamento__input" placeholder="CVV">
+                                    <input class="pagamento__button" type="button" value="Efetuar pagamento">
+                                </div>
+                            </fieldset>
+                        </form>
     
-                    <form class="pagamento__Card" action="">
-                        <fieldset class="pagamento__fieldset">
-    
-                            <label for="state"  class="button">
-                                <legend class="pagamento__legend" >Cartão de Credito</legend>
-                                <span class="material-symbols-outlined icon">expand_more</span>
-                            </label>
-                            <input type="checkbox" id="state" hidden >
-    
-                            <div class="input__container" >
-                                <input type="text" class="pagamento__input" placeholder="Número do cartão">
-                                <input type="text" class="pagamento__input" placeholder="Nome no Cartão">
-                                <input type="text" class="pagamento__input" placeholder="MM/AA">
-                                <input type="text" class="pagamento__input" placeholder="CVV">
-                                <input class="pagamento__button" type="button" value="Efetuar pagamento">
-                            </div>
-                        </fieldset>
-                    </form>
+                        <form class="pagamento__Card" action="">
+                            <fieldset class="pagamento__fieldset">
+        
+                                <label for="state-pix"  class="button">
+                                    <legend class="pagamento__legend" >PIX</legend>
+                                    <span class="material-symbols-outlined icon">expand_more</span>
+                                </label>
+                                <input type="checkbox" id="state-pix" hidden >
+        
+                                <div class="input__container" >
+                                    <img class="input__img" src="../img/qrcode.png" alt="">
+                                </div>
+                            </fieldset>
+                        </form>
 
-                    <form class="pagamento__Card" action="">
-                        <fieldset class="pagamento__fieldset">
-    
-                            <label for="state-pix"  class="button">
-                                <legend class="pagamento__legend" >PIX</legend>
-                                <span class="material-symbols-outlined icon">expand_more</span>
-                            </label>
-                            <input type="checkbox" id="state-pix" hidden >
-    
-                            <div class="input__container" >
-                                <img class="input__img" src="../img/qrcode.png" alt="">
-                            </div>
-                        </fieldset>
-                    </form>
+                    </div>
                 </div>
 
                 

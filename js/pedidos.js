@@ -11,6 +11,7 @@ const somaTotal = () => {
 };
 
 const passaValor = function () {
+  somaTotal();
   let total = parseFloat(
     document.querySelector(".total__valor").innerHTML.slice(2)
   );

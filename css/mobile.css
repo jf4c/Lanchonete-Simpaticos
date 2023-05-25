@@ -1,7 +1,90 @@
-@media (max-width: 480px) {
+@media(max-width: 850px) {
+    .header__nav-links{
+		display: flex;
+        width: 120px;
+        height: 100vh;
+		flex-direction: column;
+		align-items: center;
+		position: absolute;
+		background-color: #FFECCE;
+		left:0;
+		top:7% ;
+		margin-left: -120px ;
+		transition: 1s;
+	}
+	.header__link{
+		font-size: 1rem;
+        margin: 1rem;
+	}
+    .visible{
+		margin-left: 0px;
+		
+	}
+	.header__title{
+		font-size: 3rem;
+		text-align: center;
+		
+	}
+	.header__logo{
+		display: none;
+
+	}
+    .menu{
+		display: inline;
+	}
+    
+    
     .produtos{
         flex-direction: column;
-        background-color:aqua;
-        
+
+    }
+    .produtos__itens{
+        width: 90%;
+    }
+    
+    .beneficios__lista{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pedidos__itens{
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .pedidos__img{
+        width: 90%;
+    }
+    
+
+    .pagamento{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1000px;
+        align-items: center;
+    }
+    
+    .total-a-pagar{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .pagamento__image{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .pagamento__fieldset label{
+        width: 100%;
+    }
+
+    .formas-de-pagamento{
+        width: 90%;
+       
+    }
+    .button {
+        padding: 0;
+    }
+    .formas-de-pagamento--Box{
+        width: 100%;
+    
     }
   }
